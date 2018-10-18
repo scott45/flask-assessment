@@ -1,0 +1,42 @@
+{
+  "variables": {
+      "service_account_json": "/Users/scotty/Desktop/scott.json" 
+  },
+  "builders": [ 
+    {
+      "type": "googlecompute",
+      "disk_size": 10,
+      "image_name": "app-image-withcode-latest-scott-{{timestamp}}",
+      "image_description": "app image for a hellow world flask application",
+      "project_id": "project_id",
+      "source_image": "ubuntu-1604-xenial-v20170815a",
+      "region": "europe-west1",
+      "zone": "europe-west1-b",
+      "image_family": "ubuntu-1604-lts",
+      "ssh_username": "scott",
+      "account_file": "{{user `service_account_json`}}",
+      "machine_type": "n1-standard-1"
+    }
+  ],
+  "provisioners": [
+
+    {
+      "type": "shell-local",
+      "command": "mkdir app"
+    },
+
+    {
+      "type": "file",
+      "source": "/Users/scotty/desktop/project-code-folder",
+      "destination": "/app",
+      "direction": "upload"
+    },
+    {
+			"type":"shell",
+			"inline": [
+				"sudo chmod +x ../app/start.sh && ./../app/start.sh"
+			]
+		}
+
+  ]
+}
