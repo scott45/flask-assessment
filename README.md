@@ -28,7 +28,7 @@ And remember to edit and put self credentials to reflect your account.
 
 ## Verify Packer.json file;
 
-> packer validate packer.json
+> packer validate packer2.json
 
 ## Build packer image;
 
@@ -39,6 +39,10 @@ And remember to edit and put self credentials to reflect your account.
 > cd Terraform-scripts
 
 And remember to edit and put self credentials in variables.tf to reflect your account.
+
+## Change image name;
+
+> Head over to instance.tf and change image to the one that has been built
 
 ## Check the resources to be created;
 
