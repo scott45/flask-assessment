@@ -24,7 +24,7 @@ A task done to demonstrate automated building of vm images and GCE server provis
 
 > cd packer-scripts 
 
-And remember to edit and put self credentials
+And remember to edit and put self credentials to reflect your account.
 
 ## Verify Packer.json file;
 
@@ -38,7 +38,7 @@ And remember to edit and put self credentials
 
 > cd Terraform-scripts
 
-And remember to edit and put self credentials in variables.tf
+And remember to edit and put self credentials in variables.tf to reflect your account.
 
 ## Check the resources to be created;
 
