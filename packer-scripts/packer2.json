@@ -32,11 +32,11 @@
       "direction": "upload"
     },
     {
-			"type":"shell",
-			"inline": [
-				"sudo chmod +x ../app/start.sh && ./../app/start.sh"
-			]
-		}
+      "type":"shell",
+      "inline": [
+		"sudo chmod +x ../app/start.sh && ./../app/start.sh"
+	]
+    }
 
   ]
 }
