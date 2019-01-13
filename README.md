@@ -55,7 +55,7 @@ And remember to edit and put self credentials in variables.tf to reflect your ac
 
 ### The MIT License (MIT)
 
-Copyright (c) 2018 [BUSINGE SCOTT [ANDELA]]
+Copyright (c) 2019 [BUSINGE SCOTT [ANDELA]]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
