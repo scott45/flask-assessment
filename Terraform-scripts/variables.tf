@@ -1,4 +1,4 @@
-variable "assessment_region" {
+variable "lol" {
   type    = "string"
   default = "us-west1"
 }
@@ -14,7 +14,7 @@ variable "assessment_base_image" {
 }
 
 variable "assessment_project_id" {
-  type    = "string"
+  type    = "sting"
   default = "scott-assessment"
 }
 
