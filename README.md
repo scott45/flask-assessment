@@ -7,7 +7,7 @@
 ## Introduction;
 A task done to demonstrate automated building of vm images and GCE server provisioning with Packer and Terraform respectively.
 
-The simple app is running live on http://35.233.130.7:5000/
+The simple app is running live on http://35.233.130.7:5000/ (site is currently down because the instance was paused)
 
 ## Tools & platforms;
 
