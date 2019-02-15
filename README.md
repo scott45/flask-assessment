@@ -20,7 +20,7 @@ The simple app is running live on http://35.233.130.7:5000/ (site is currently d
 
 > Clone the repo from this url - https://github.com/scott45/flask-assessment.git
 
-### Build packer image;
+## Build packer image;
 
 > cd packer-scripts 
 
@@ -53,7 +53,7 @@ And remember to edit and put self credentials in variables.tf to reflect your ac
 > terraform apply
 
 
-### The MIT License (MIT)
+## The MIT License (MIT)
 
 Copyright (c) 2019 [BUSINGE SCOTT [ANDELA]]
 
